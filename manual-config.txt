@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "unanet": {
+      "command": "node",
+      "args": ["C:\\path\\to\\unanet-mcp-server\\dist\\index.js"],
+      "env": {
+        "UNANET_USERNAME": "your-username",
+        "UNANET_PASSWORD": "your-password",
+        "UNANET_API_KEY": "your-api-key",
+        "UNANET_FIRM_CODE": "your-firm-code",
+        "UNANET_BASE_URL": "https://your-instance.unanet.com"
+      }
+    }
+  }
+}
