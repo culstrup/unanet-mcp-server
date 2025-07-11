@@ -34,7 +34,7 @@ Node.js is required to run the Unanet connector.
 ### Step 2: Download the Unanet Connector (2 minutes)
 
 1. **Download the connector** from GitHub:
-   - Go to: [GitHub Repository URL]
+   - Go to: https://github.com/culstrup/unanet-mcp-server
    - Click the green "Code" button
    - Click "Download ZIP"
    

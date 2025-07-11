@@ -64,7 +64,7 @@ That's it! See [Windows Setup Guide](README-WINDOWS.md) for detailed instruction
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/unanet-mcp-server.git
+git clone https://github.com/culstrup/unanet-mcp-server.git
 cd unanet-mcp-server
 ```
 
