@@ -13,10 +13,14 @@
     "start": "node dist/index.js",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run build",
-    "test:build": "npm run build && npm run test:server",
+    "test": "npm run build && vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "test:server": "node test-server.js",
     "mock-server": "tsx src/mock-server.ts",
-    "test:integration": "npm run mock-server & sleep 2 && npm run dev"
+    "test:integration": "npm run mock-server & sleep 2 && npm run dev",
+    "lint": "eslint src --ext .ts",
+    "type-check": "tsc --noEmit"
   },
   "keywords": [
     "mcp",
@@ -39,7 +43,12 @@
     "typescript": "^5.3.0",
     "@types/express": "^4.17.21",
     "express": "^4.18.2",
-    "express-basic-auth": "^1.2.1"
+    "express-basic-auth": "^1.2.1",
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
