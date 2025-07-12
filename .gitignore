@@ -44,3 +44,11 @@ claude_desktop_config.json
 *.bak
 *.backup
 *.old
+
+# Business/Marketing documents (keep local only)
+MARKETING-*.md
+BUSINESS-*.md
+STRATEGY-*.md
+CONTACTS-*.md
+*-TARGETS.md
+*-OUTREACH.md
