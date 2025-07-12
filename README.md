@@ -28,9 +28,6 @@
 
 ![Executive Status Query](assets/screenshots/executive-status-query.png)
 
-### Real Results from Real Users
-
-> "I used to spend 20 minutes every morning pulling project data for my standup. Now I just ask Claude for a briefing and I'm done in 30 seconds." - *GovCon Project Manager*
 
 ## 🎯 Quick Start
 
