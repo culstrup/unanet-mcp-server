@@ -9,6 +9,7 @@ import {
   ReadResourceRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
 import { z } from "zod";
+import { zodToJsonSchema } from "zod-to-json-schema";
 import dotenv from "dotenv";
 import { UnanetAuth, validateAuth } from "./auth.js";
 import { 
@@ -113,7 +114,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
     tools: tools.map(tool => ({
       name: tool.name,
       description: tool.description,
-      inputSchema: tool.inputSchema,
+      inputSchema: zodToJsonSchema(tool.inputSchema),
     })),
   };
 });
