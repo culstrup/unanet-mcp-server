@@ -8,7 +8,7 @@ export const getProjectsTool = {
   description: "Get a list of all projects from Unanet",
   inputSchema: z.object({
     status: z.enum(["Active", "Inactive", "Completed", "All"]).optional().default("All"),
-    limit: z.number().optional().default(50),
+    limit: z.number().positive().optional().default(50),
   }),
   handler: async (args: any, auth: UnanetAuth) => {
     const client = createUnanetClient(auth);
