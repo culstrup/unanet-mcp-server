@@ -156,6 +156,85 @@ Once configured, you can interact with Unanet through Claude:
 "Create a new opportunity worth $500k closing next month"
 ```
 
+## Power User Examples: Real Value & Time Savings
+
+See how the Unanet MCP integration transforms complex ERP queries into simple conversations:
+
+📸 **[View Screenshot Examples](docs/POWER-USER-SCREENSHOTS.md)** - See real examples of these queries in action
+
+### Executive Project Status Updates (Save 15-30 minutes daily)
+
+**Traditional Method:** Log into Unanet → Navigate to Projects → Open each project → Copy data → Format in Excel → Write summary
+**With Claude:** "Can you provide an executive update on the status of everything Unanet project-wise?"
+
+**Example Output:**
+```
+Executive Update: Unanet Project Portfolio Status
+
+Portfolio Overview
+• Total Active Projects: 2
+• Combined Portfolio Budget: $350,000
+• Total Actual Costs to Date: $125,000
+• Overall Portfolio Utilization: 35.7%
+
+Project Status Summary
+Test Project Alpha (PRJ-001)
+• Status: Active
+• Timeline: January 1 - December 31, 2024
+• Progress: 50% Complete
+• Budget Performance: $75,000 spent of $150,000 (50% budget utilization)
+• Project Manager: John Doe
+```
+
+### Daily Executive Briefings (Save 20 minutes each morning)
+
+**Traditional Method:** Run multiple reports → Analyze data → Identify risks → Format briefing
+**With Claude:** "Give me an exec daily briefing in 3-5 bullet points with one recommended action item"
+
+**Example Output:**
+```
+Executive Daily Briefing - Unanet Projects
+
+• Portfolio Health: 2 active projects ($350K total budget) tracking on schedule with $125K spent (36% utilization)
+• Project Alpha: 50% complete with proportional budget burn ($75K/$150K) - entering critical second half of project timeline
+• Project Beta: Early stage execution at 25% complete, healthy budget trajectory ($50K/$200K spent)
+• Resource Status: Current team allocation stable with Jane Smith at 80% on Alpha; no resource conflicts identified
+• Risk Assessment: No red flags - both projects showing green status with budget and timeline alignment
+
+Recommended Action: Schedule mid-project review for Project Alpha this week to validate second-half resource planning and identify any scope adjustments needed to maintain on-time delivery.
+```
+
+### Instant Financial Analysis (Save 45 minutes per analysis)
+
+**Traditional Method:** Export financial data → Create pivot tables → Calculate metrics → Generate charts
+**With Claude:** "Show me the financial performance metrics for all active projects with budget variance analysis"
+
+### Resource Optimization Queries (Save 1-2 hours weekly)
+
+**Traditional Method:** Pull resource reports → Check allocations → Identify conflicts → Email managers
+**With Claude:** "Which team members are overallocated next month and what projects are affected?"
+
+### Compliance & Audit Readiness (Save hours during audits)
+
+**Traditional Method:** Gather timesheet data → Verify approvals → Create audit trail → Format reports
+**With Claude:** "Generate a compliance report showing all unapproved timesheets and expenses for the last quarter"
+
+### ROI & Value Proposition
+
+Based on typical GovCon operations:
+- **Time Saved:** 2-4 hours per week for project managers, 1-2 hours daily for executives
+- **Error Reduction:** Eliminate manual data entry errors and inconsistencies
+- **Decision Speed:** Get answers in seconds instead of running reports for 20-30 minutes
+- **Audit Readiness:** Instant access to compliance data without manual compilation
+- **Strategic Focus:** Spend time on analysis and decisions, not data gathering
+
+### Pro Tips for Power Users
+
+1. **Chain Complex Queries:** "Show me all projects over budget, then create a risk mitigation plan for the top 3"
+2. **Automate Regular Reports:** "Every Monday, give me a portfolio health check with recommended actions"
+3. **Deep Dive Analysis:** "Compare this quarter's project performance to last quarter and identify trends"
+4. **What-If Scenarios:** "If we increase Project Alpha's budget by 20%, how does that affect our portfolio metrics?"
+
 ## Development
 
 ### Running in Development Mode
