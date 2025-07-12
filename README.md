@@ -314,7 +314,7 @@ We help GovCon CEOs integrate AI into their core business operations and acceler
 
 ---
 
-*Built by contractors, for contractors. Because your time should be spent winning contracts, not wrestling with ERPs.*
+*Because your time should be spent winning contracts, not wrestling with ERPs.*
 
 ## License
 
